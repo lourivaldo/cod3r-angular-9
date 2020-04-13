@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Notebook Mac Pro",
+      "price": 12000.99
+    },
+    {
+      "name": "Sangsung S20+",
+      "price": 2000,
+      "id": 3
+    },
+    {
+      "name": "Geladeira Eletrolux",
+      "price": "1500",
+      "id": 4
+    }
+  ]
+}
