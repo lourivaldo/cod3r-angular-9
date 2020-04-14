@@ -57,6 +57,12 @@ git push origin develop
 
 #### 10. Componente Rodapé
 ```
+ng g c components/template/footer
+git flow feature start aula-10
+git add --a
+git commit -m "Adicionado componente footer"
+git flow feature finish aula-10
+git push origin develop
 ```
 
 #### 11. Componente Navegação
