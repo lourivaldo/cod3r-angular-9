@@ -70,7 +70,7 @@ git push origin develop
 ng g c components/template/nav
 git flow feature start aula-11
 git add --a
-git commit -m "Adicionado componente navegacao"
+git commit -m "Adicionado componente de navegacao"
 git flow feature finish aula-11
 git push origin develop
 ```
