@@ -26,6 +26,7 @@ ng new frontend --minimal
 cd frontend
 npm start
 git flow feature start aula-5
+git flow feature finish aula-5
 ```
 
 #### 6. Conhecendo os Arquivos do Projeto
