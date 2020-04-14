@@ -88,10 +88,17 @@ git push origin develop
 
 #### 13. Navegando entre Componentes
 ```
+ng g c views/home
 ```
 
 #### 14. Componente Criar Produto
 ```
+ng g c components/product/product-create
+git flow feature start aula-14
+git add --a
+git commit -m "Adicionado componente Produto"
+git flow feature finish aula-14
+git push origin develop
 ```
 
 #### 15. Bindings
