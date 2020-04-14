@@ -1,0 +1,15 @@
+{
+  "name": "cod3r-angular-9",
+  "version": "1.0.0",
+  "description": "##### Conteúdo do curso * Componentes * Módulos * Diretivas * Services * Injeção de Dependências * Pipes * Navegação * Observables * Consumir uma API Rest",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3001"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}
