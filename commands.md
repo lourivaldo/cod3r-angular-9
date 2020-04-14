@@ -68,6 +68,7 @@ git push origin develop
 #### 11. Componente Navegação
 ```
 ng g c components/template/nav
+
 git flow feature start aula-11
 git add --a
 git commit -m "Adicionado componente de navegacao"
@@ -77,6 +78,12 @@ git push origin develop
 
 #### 12. Componente Início (Home)
 ```
+ng g c views/home
+git flow feature start aula-12
+git add --a
+git commit -m "Adicionado componente Home"
+git flow feature finish aula-12
+git push origin develop
 ```
 
 #### 13. Navegando entre Componentes
