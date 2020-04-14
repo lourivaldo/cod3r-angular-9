@@ -26,7 +26,9 @@ ng new frontend --minimal
 cd frontend
 npm start
 git flow feature start aula-5
+git push origin feature/aula-5
 git flow feature finish aula-5
+git push origin develop
 ```
 
 #### 6. Conhecendo os Arquivos do Projeto
@@ -39,10 +41,18 @@ git flow feature finish aula-5
 
 #### 8. Instalar os Componentes do Material
 ```
+ng add @angular/material
 ```
 
 #### 9. Componente Cabeçalho
 ```
+ng generate component components/template/header
+git flow feature start aula-9
+git add .
+git commit -m "Adicionado componente header"
+git push origin feature/aula-9
+git flow feature finish aula-9
+git push origin develop
 ```
 
 #### 10. Componente Rodapé
