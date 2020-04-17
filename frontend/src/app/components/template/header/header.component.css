@@ -20,3 +20,7 @@
 .header .title-group i {
     padding-right: 5px;
 }
+
+.header .title-group a {
+    color: #515151;
+}
